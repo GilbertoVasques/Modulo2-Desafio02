@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  list-style: none;
+  text-decoration:none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+
+  background: linear-gradient(90deg, rgb(227, 255, 248, 0) 82.08%, rgb(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+}
+
+
+.page {
+ margin: 0px;
+}
+  
+/*___________________Cabeçalho_______________________*/
+
+header{
+  width: 1005px;
+  padding: 65px 150px 0px 120px ;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin-bottom:58px;
+  text-align: center;
+}
+  
+
+nav {
+  display: flex;
+  align-items: center;
+  
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  font-family: "Mulish", sans-serif;
+  font-weight: normal;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+  color: #1f1534;
+}
+
+/*___________________Conteudo___________________*/
+
+.hero{
+  padding: 0 154px 0 120px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section h1{ 
+ font-size: 49px;
+ font-family: "Mulish", sans-serif;
+ font-weight: 400;
+
+ line-height: 56px;
+
+ color: #1F1534;
+
+ height: 112px;
+ width: 490px;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+
+section p{
+  height: 84px;
+  width: 438px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+
+  margin: 40px 0;
+
+}
+
+
+button {
+  width: 182px;
+  height: 56px;
+  
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size:16px;
+  line-height: 22px;
+
+  color: white;
+  background: #69B99D;
+  border: 0;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+
+  border-radius: 4px;
+
+  cursor: pointer;
+}
+
+button:hover {
+    background: #4EA788;
+    transition: .3s;
+}
+
+/*______________________RodaPê______________________*/
+
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+
+  font-style: normal;
+  font-weight: 400;
+
+  text-align: center;
+
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+
+footer a {
+  font-weight: bold;
+  color: #000;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
